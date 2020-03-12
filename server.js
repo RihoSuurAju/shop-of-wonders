@@ -30,8 +30,6 @@ app.use(function(req, res, next){
 
 
 
-app.listen(process.env.PORT || 3000, function(){
-    console.log("Server is vibing on port 3000");
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Server is running on port 3000");
 });
-
-
