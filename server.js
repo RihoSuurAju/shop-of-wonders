@@ -26,17 +26,12 @@ app.use(function(req, res, next){
         path: ""
     
     });
-
-    //res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
-
-    //res.status(404).send("Not found");
 });
 
 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("Server is vibing on port 3000");
-    //console.log("Path", path);
 });
 
 
