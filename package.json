@@ -1,0 +1,26 @@
+{
+  "name": "tarpe18-onlineshop",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ju-voro/TARpe18-NodeJS-OnlineShop-Part1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ju-voro/TARpe18-NodeJS-OnlineShop-Part1/issues"
+  },
+  "homepage": "https://github.com/ju-voro/TARpe18-NodeJS-OnlineShop-Part1#readme",
+  "description": ""
+}
